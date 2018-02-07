@@ -59,8 +59,8 @@ const init = async() => {
         }
     })
     
-
-    app.listen(3000, err => {
+    const port = process.env.PORT || 3000;
+    app.listen(port, err => {
         console.log('Futiba Club server is running...')
     })
 }
