@@ -18,7 +18,7 @@ app.set('view engine', 'ejs')
 
 const init = async() => {
     const connection = await mysql.createConnection({
-        host: 'mysql873.umbler.com:41890',
+        host: 'mysql873.umbler.com',
         user: 'tiago238',
         password: 'Ti12bom36Go',
         database: 'futibaclub'
